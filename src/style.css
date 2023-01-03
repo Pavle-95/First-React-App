@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightgray;
+  color: lightskyblue;
+}
+.book-list {
+  width: 100%;
+  max-width: 1320px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.book {
+  background-color: bisque;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.book h1 {
+  text-align: center;
+}
+
+.book button {
+  display: block;
+  width: auto;
+  margin: 15px auto;
+  padding: 15px 20px;
+  background-color: rgb(0, 183, 255);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
